@@ -1,0 +1,1507 @@
+{
+   "intents":[
+ {
+   "tag": "greeting",
+   "patterns": [
+      "Hi",
+      "How are you?",
+      "Is anyone there?",
+      "Hello",
+      "Good day",
+      "What's up",
+      "how are ya",
+      "heyy",
+      "whatsup",
+      "??? ??? ??",
+      "Hey",
+      "Hey there",
+      "Hey!",
+      "Hi!",
+      "Hi, how's it going?",
+      "Hey, what's new?",
+      "Hello there",
+      "Greetings",
+      "Hey, long time no see!",
+      "Hey, how have you been?"
+   ],
+   "responses": [
+      "Hello!",
+      "Good to see you again!",
+      "Hi there, how can I help?"
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "goodbye",
+   "patterns": [
+      "cya",
+      "see you",
+      "bye bye",
+      "See you later",
+      "Goodbye",
+      "I am Leaving",
+      "Bye",
+      "Have a Good day",
+      "talk to you later",
+      "ttyl",
+      "i got to go",
+      "gtg"
+   ],
+   "responses": [
+      "Sad to see you go :(",
+      "Talk to you later",
+      "Goodbye!",
+      "Come back soon"
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "creator",
+   "patterns": [
+      "what is the name of your developers",
+      "what is the name of your creators",
+      "what is the name of the developers",
+      "what is the name of the creators",
+      "who created you",
+      "your developers",
+      "your creators",
+      "who are your developers",
+      "developers",
+      "you are made by",
+      "you are made by whom",
+      "who created you",
+      "who create you",
+      "creators",
+      "who made you",
+      "who designed you"
+   ],
+   "responses": [
+      "College students"
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "name",
+   "patterns": [
+      "name",
+      "your name",
+      "do you have a name",
+      "what are you called",
+      "what is your name",
+      "what should I call you",
+      "whats your name?",
+      "what are you",
+      "who are you",
+      "who is this",
+      "what am i chatting to",
+      "who am i taking to",
+      "what are you"
+   ],
+   "responses": [
+      "You can call me Mind Reader.",
+      "I'm Mind Reader",
+      "I am a Chatbot.",
+      "I am your helper"
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "hours",
+   "patterns": [
+      "timing of college",
+      "what is college timing",
+      "working days",
+      "when are you guys open",
+      "what are your hours",
+      "hours of operation",
+      "when is the college open",
+      "college timing",
+      "what about college timing",
+      "is college open on saturday",
+      "tell something about college timing",
+      "what is the college  hours",
+      "when should i come to college",
+      "when should i attend college",
+      "what is my college time",
+      "college timing",
+      "timing college"
+   ],
+   "responses": [
+      "College is open 8am-5pm Monday-Saturday!"
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "number",
+   "patterns": [
+      "more info",
+      "contact info",
+      "how to contact college",
+      "college telephone number",
+      "college number",
+      "What is your contact no",
+      "Contact number?",
+      "how to call you",
+      "College phone no?",
+      "how can i contact you",
+      "Can i get your phone number",
+      "how can i call you",
+      "phone number",
+      "phone no",
+      "call",
+      "Phone number",
+      "How do I reach you by phone?",
+      "Contact details",
+      "What's the contact number?",
+      "Telephone number",
+      "Call the college",
+      "Dial your number",
+      "Reach out via phone",
+      "What's your phone number?",
+      "How can I reach the college by phone?",
+      "What's the best way to contact you?",
+      "How do I call the college?",
+      "College contact",
+      "College hotline",
+      "Contact us",
+      "How to dial college",
+      "College info line",
+      "Place a call",
+      "Phone assistance",
+      "Call the institution"
+   ],
+   "responses": [
+      "You can contact at: NUMBER"
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "course",
+   "patterns": [
+      "list of courses",
+      "list of courses offered",
+      "list of courses offered in",
+      "what are the courses offered in your college?",
+      "courses?",
+      "courses offered",
+      "courses offered in (your univrsity(UNI) name)",
+      "courses you offer",
+      "branches?",
+      "courses available at UNI?",
+      "branches available at your college?",
+      "what are the courses in UNI?",
+      "what are branches in UNI?",
+      "what are courses in UNI?",
+      "branches available in UNI?",
+      "can you tell me the courses available in UNI?",
+      "can you tell me the branches available in UNI?",
+      "computer engineering?",
+      "computer",
+      "Computer engineering?",
+      "it",
+      "IT",
+      "Information Technology",
+      "AI/Ml",
+      "Mechanical engineering",
+      "Chemical engineering",
+      "Civil engineering",
+      "Available majors",
+      "Degree programs",
+      "Courses for undergraduates",
+      "Postgraduate programs",
+      "Course list",
+      "What can I study at UNI?",
+      "Academic offerings",
+      "What courses are there?",
+      "Educational programs",
+      "Degree options",
+      "Areas of study",
+      "Course catalog",
+      "Program details",
+      "Curriculum details",
+      "Fields of study",
+      "List of majors",
+      "Course information",
+      "Academic disciplines",
+      "Program availability",
+      "What majors are available?"
+   ],
+   "responses": [
+      "Our university offers Information Technology, computer Engineering, Mechanical engineering,Chemical engineering, Civil engineering and extc Engineering."
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "fees",
+   "patterns": [
+      "information about fee",
+      "information on fee",
+      "tell me the fee",
+      "college fee",
+      "fee per semester",
+      "what is the fee of each semester",
+      "what is the fees of each year",
+      "what is fee",
+      "what is the fees",
+      "how much is the fees",
+      "fees for first year",
+      "fees",
+      "about the fees",
+      "tell me something about the fees",
+      "What is the fees of hostel",
+      "how much is the fees",
+      "hostel fees",
+      "fees for AC room",
+      "fees for non-AC room",
+      "fees for Ac room for girls",
+      "fees for non-Ac room for girls",
+      "fees for Ac room for boys",
+      "fees for non-Ac room for boys",
+      "Tuition fees",
+      "Cost of education",
+      "Financial information",
+      "Expense details",
+      "Fee structure",
+      "Semester fees",
+      "Yearly fees",
+      "Hostel fee details",
+      "Accommodation costs",
+      "Room charges",
+      "Boarding fees",
+      "Lodging costs",
+      "Meal charges",
+      "Residence fees",
+      "Dormitory costs",
+      "Fee payment",
+      "Tuition expenses",
+      "Scholarship details",
+      "Financial aid",
+      "Grants and scholarships"
+   ],
+   "responses": [
+      "For Fee detail visit <a target=\"_blank\" href=\"LINK\"> here</a>"
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "location",
+   "patterns": [
+      "where is the college located",
+      "college is located at",
+      "where is college",
+      "where is college located",
+      "address of college",
+      "how to reach college",
+      "college location",
+      "college address",
+      "wheres the college",
+      "how can I reach college",
+      "whats is the college address",
+      "what is the address of college",
+      "address",
+      "location",
+      "Campus location",
+      "Directions to college",
+      "Where is the campus?",
+      "Travel to college",
+      "Campus address",
+      "Finding the college",
+      "Locating the institution",
+      "How do I get to college?",
+      "Map of the college",
+      "Campus directions",
+      "College site",
+      "Getting to the institution",
+      "Address details",
+      "How to find college",
+      "Way to the college",
+      "Location of the campus",
+      "College coordinates",
+      "Reach the institution",
+      "Navigate to college",
+      "College area"
+   ],
+   "responses": [
+      "<a target=\"_blank\" href=\"ADD YOU GOOGLE MAP LINK HERE\"> here</a>"
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "hostel",
+   "patterns": [
+      "hostel facility",
+      "hostel servive",
+      "hostel location",
+      "hostel address",
+      "hostel facilities",
+      "hostel fees",
+      "Does college provide hostel",
+      "Is there any hostel",
+      "Where is hostel",
+      "do you have hostel",
+      "do you guys have hostel",
+      "hostel",
+      "hostel capacity",
+      "what is the hostel fee",
+      "how to get in hostel",
+      "what is the hostel address",
+      "how far is hostel from college",
+      "hostel college distance",
+      "where is the hostel",
+      "how big is the hostel",
+      "distance between college and hostel",
+      "distance between hostel and college"
+   ],
+   "responses": [
+      "For hostel detail visit <a target=\"_blank\" href=\"ADD YOUR HOSTEL DETAIL PDF LINK OR ANY INFORMATION LINK OR ADD YOU OWN ANSWERS\"> here</a>"
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "event",
+   "patterns": [
+      "events organised",
+      "list of events",
+      "list of events organised in college",
+      "list of events conducted in college",
+      "What events are conducted in college",
+      "Are there any event held at college",
+      "Events?",
+      "functions",
+      "what are the events",
+      "tell me about events",
+      "what about events",
+      "Upcoming events",
+      "Event schedule",
+      "Event calendar",
+      "Activities list",
+      "Event lineup",
+      "Occasions at college",
+      "Programs and events",
+      "Event information",
+      "Event updates",
+      "Festivities",
+      "Gatherings",
+      "Social events",
+      "Cultural events",
+      "Educational events",
+      "Workshops and seminars",
+      "Conferences",
+      "Celebrations",
+      "Community events",
+      "Special occasions",
+      "Event announcements"
+   ],
+   "responses": [
+      "For event detail visit <a target=\"_blank\" href=\"ADD YOUR FUNCTIONS LINK OR YOUR OWN RESPONSE\"> here</a>"
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "document",
+   "patterns": [
+      "document to bring",
+      "documents needed for admision",
+      "documents needed at the time of admission",
+      "documents needed during admission",
+      "documents required for admision",
+      "documents required at the time of admission",
+      "documents required during admission",
+      "What document are required for admission",
+      "Which document to bring for admission",
+      "documents",
+      "what documents do i need",
+      "what documents do I need for admission",
+      "documents needed",
+      "Required paperwork",
+      "Admission documents",
+      "Enrollment documents",
+      "Application papers",
+      "Entry requirements",
+      "Necessary documents",
+      "Essential paperwork",
+      "Application materials",
+      "Registration documents",
+      "What to submit for admission",
+      "Application checklist",
+      "Documentation list",
+      "Submission requirements",
+      "Enrollment essentials",
+      "Admission criteria",
+      "Needed paperwork",
+      "Preparation documents",
+      "Entrance documents",
+      "Required credentials",
+      "Admission prerequisites"
+   ],
+   "responses": [
+      "To know more about document required visit <a target=\"_blank\" href=\"ADD LINK OF ADMISSION GUIDANCE DOCUMENT FROM YOUR UNIVERSITY WEBSITE\"> here</a>"
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "floors",
+   "patterns": [
+      "size of campus",
+      "building size",
+      "How many floors does college have",
+      "floors in college",
+      "floors in college",
+      "how tall is UNI's College of Engineering college building",
+      "floors",
+      "Building levels",
+      "College building height",
+      "Campus structure",
+      "Floor count",
+      "Campus height",
+      "Number of stories",
+      "Building floors",
+      "College building size",
+      "Campus floors",
+      "Building storeys",
+      "College structure",
+      "Building height",
+      "How many stories in the college",
+      "Number of floors in college",
+      "Building storey count"
+   ],
+   "responses": [
+      "My College has total 2 floors "
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "syllabus",
+   "patterns": [
+      "Syllabus for IT",
+      "what is the Information Technology syllabus",
+      "syllabus",
+      "timetable",
+      "what is IT syllabus",
+      "syllabus",
+      "What is next lecture",
+      "Curriculum for IT",
+      "Information Technology course plan",
+      "Course syllabus",
+      "What topics are covered in IT",
+      "Lesson plan for IT",
+      "Syllabus details",
+      "What does IT curriculum include",
+      "IT course outline",
+      "Study plan for IT",
+      "Information Technology subjects",
+      "What will I study in IT",
+      "Syllabus contents",
+      "Next lecture topic",
+      "Upcoming lesson",
+      "IT module details",
+      "What's on the IT schedule",
+      "IT program structure",
+      "IT lesson content",
+      "IT class agenda",
+      "What's next in IT class"
+      
+   ],
+   "responses": [
+      "Timetable provide direct to the students OR To know about syllabus visit <a target=\"_blank\" href=\"TIMETABLE LINK\"> here</a>"
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "library",
+   "patterns": [
+      "is there any library",
+      "library facility",
+      "library facilities",
+      "do you have library",
+      "does the college have library facility",
+      "college library",
+      "where can i get books",
+      "book facility",
+      "Where is library",
+      "Library",
+      "Library information",
+      "Library books information",
+      "Tell me about library",
+      "how many libraries"
+   ],
+   "responses": [
+      "There is one huge and spacious library.timings are 8am to 6pm and for more visit <a target=\"blank\" href=\"ADD LIBRARY DETAIL LINK\">here</a>"
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "infrastructure",
+   "patterns": [
+      "how is college infrastructure",
+      "infrastructure",
+      "college infrastructure"
+   ],
+   "responses": [
+      "Our University has Excellent Infrastructure. Campus is clean. Good IT Labs With Good Speed of Internet connection"
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "canteen",
+   "patterns": [
+      "food facilities",
+      "canteen facilities",
+      "canteen facility",
+      "is there any canteen",
+      "Is there a cafetaria in college",
+      "Does college have canteen",
+      "Where is canteen",
+      "where is cafetaria",
+      "canteen",
+      "Food",
+      "Cafetaria"
+   ],
+   "responses": [
+      "Our university has canteen with variety of food available"
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "menu",
+   "patterns": [
+      "food menu",
+      "food in canteen",
+      "Whats there on menu",
+      "what is available in college canteen",
+      "what foods can we get in college canteen",
+      "food variety",
+      "What is there to eat?"
+   ],
+   "responses": [
+      "we serve Franky, Locho, Alu-puri, Kachori, Khavsa, Thaali and many more on menu"
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "placement",
+   "patterns": [
+      "What is college placement",
+      "Which companies visit in college",
+      "What is average package",
+      "companies visit",
+      "package",
+      "About placement",
+      "placement",
+      "recruitment",
+      "companies"
+   ],
+   "responses": [
+      "To know about placement visit <a target=\"_blank\" href=\"PLACEMENT INFORMATION LINK FROM YOUR UNIVERSITY WEBSITE IF THEY HAVE\">here</a>"
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "ithod",
+   "patterns": [
+      "Who is HOD",
+      "Where is HOD",
+      "it hod",
+      "name of it hod"
+   ],
+   "responses": [
+      "All engineering departments have only one hod XYZ who available on (Place name)"
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "computerhod",
+   "patterns": [
+      "Who is computer HOD",
+      "Where is computer HOD",
+      "computer hod",
+      "name of computer hod"
+   ],
+   "responses": [
+      "All engineering departments have only one hod XYZ who available on (PLACE NAME)"
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "extchod",
+   "patterns": [
+      "Who is extc HOD",
+      "Where is  extc HOD",
+      "extc hod",
+      "name of extc hod"
+   ],
+   "responses": [
+      "Different school wise hod are different.So be more clear with your school or department"
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "principal",
+   "patterns": [
+      "what is the name of principal",
+      "whatv is the principal name",
+      "principal name",
+      "Who is college principal",
+      "Where is principal's office",
+      "principal",
+      "name of principal"
+   ],
+   "responses": [
+      "XYZ is college principal and if you need any help then call your branch hod first.That is more appropriate"
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "sem",
+   "patterns": [
+      "exam dates",
+      "exam schedule",
+      "When is semester exam",
+      "Semester exam timetable",
+      "sem",
+      "semester",
+      "exam",
+      "when is exam",
+      "exam timetable",
+      "exam dates",
+      "when is semester"
+   ],
+   "responses": [
+      "Here is the Academic Calendar  <a target=\"_blank\" href=\"YOUR ACADEMIC CALENDER\">website</a>"
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "admission",
+   "patterns": [
+      "what is the process of admission",
+      "what is the admission process",
+      "How to take admission in your college",
+      "What is the process for admission",
+      "admission",
+      "admission process"
+   ],
+   "responses": [
+      "Application can also be submitted online through the Unversity's  <a target=\"_blank\" href=\"LINK OF ADMISSION DOCUMENT\">website</a>"
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "scholarship",
+   "patterns": [
+      "scholarship",
+      "Is scholarship available",
+      "scholarship engineering",
+      "scholarship it",
+      "scholarship ce",
+      "scholarship mechanical",
+      "scholarship civil",
+      "scholarship chemical",
+      "scholarship for AI/ML",
+      "available scholarships",
+      "scholarship for computer engineering",
+      "scholarship for IT engineering",
+      "scholarship for mechanical engineering",
+      "scholarship for civil engineering",
+      "scholarship for chemical engineering",
+      "list of scholarship",
+      "comps scholarship",
+      "IT scholarship",
+      "mechanical scholarship",
+      "civil scholarship",
+      "chemical scholarship",
+      "automobile scholarship",
+      "first year scholarship",
+      "second year scholarship",
+      "third year scholarship",
+      "fourth year scholarship"
+   ],
+   "responses": [
+      "Many government scholarships are supported by our university. For details and updates visit <a target=\"_blank\" href=\"(SCHOLARSHIP DETAILS LINK)\">here</a>"
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "facilities",
+   "patterns": [
+      "What facilities college provide",
+      "College facility",
+      "What are college facilities",
+      "facilities",
+      "facilities provided"
+   ],
+   "responses": [
+      "Our university's Engineering department provides fully AC Lab with internet connection, smart classroom, Auditorium, library,canteen"
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "college intake",
+   "patterns": [
+      "max number of students",
+      "number of seats per branch",
+      "number of seats in each branch",
+      "maximum number of seats",
+      "maximum students intake",
+      "What is college intake",
+      "how many stundent are taken in each branch",
+      "seat allotment",
+      "seats"
+   ],
+   "responses": [
+      "For IT, Computer and extc 60 per branch and seat may be differ for different department."
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "uniform",
+   "patterns": [
+      "college dress code",
+      "college dresscode",
+      "what is the uniform",
+      "can we wear casuals",
+      "Does college have an uniform",
+      "Is there any uniform",
+      "uniform",
+      "what about uniform",
+      "do we have to wear uniform"
+   ],
+   "responses": [
+      "ENTER YOUR OWN UNIVERSITY UNIFORM CIRCULER"
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "committee",
+   "patterns": [
+      "what are the different committe in college",
+      "different committee in college",
+      "Are there any committee in college",
+      "Give me committee details",
+      "committee",
+      "how many committee are there in college"
+   ],
+   "responses": [
+      "For the various committe in college contact this number: ADD NUMBER"
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "random",
+   "patterns": [
+      "I love you",
+      "Will you marry me",
+      "Do you love me"
+   ],
+   "responses": [
+      "I am not program for this, please ask appropriate query"
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "swear",
+   "patterns": [
+      "fuck",
+      "bitch",
+      "shut up",
+      "hell",
+      "stupid",
+      "idiot",
+      "dumb ass",
+      "asshole",
+      "fucker"
+   ],
+   "responses": [
+      "please use appropriate language",
+      "Maintaining decency would be appreciated"
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "vacation",
+   "patterns": [
+      "holidays",
+      "when will semester starts",
+      "when will semester end",
+      "when is the holidays",
+      "list of holidays",
+      "Holiday in these year",
+      "holiday list",
+      "about vacations",
+      "about holidays",
+      "When is vacation",
+      "When is holidays",
+      "how long will be the vacation"
+   ],
+   "responses": [
+      "Academic calender is given to you by your class-soordinators after you join your respective classes"
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "sports",
+   "patterns": [
+      "sports and games",
+      "give sports details",
+      "sports infrastructure",
+      "sports facilities",
+      "information about sports",
+      "Sports activities",
+      "please provide sports and games information"
+   ],
+   "responses": [
+      "Our university encourages all-round development of students and hence provides sports facilities in the campus. For more details visit<a target=\"_blank\" href=/\"(LINK IF HAVE)\">here</a>"
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "salutaion",
+   "patterns": [
+      "okk",
+      "okie",
+      "nice work",
+      "well done",
+      "good job",
+      "thanks for the help",
+      "Thank You",
+      "its ok",
+      "Thanks",
+      "Good work",
+      "k",
+      "ok",
+      "okay"
+   ],
+   "responses": [
+      "I am glad I helped you",
+      "welcome, anything else i can assist you with?"
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "task",
+   "patterns": [
+      "what can you do",
+      "what are the thing you can do",
+      "things you can do",
+      "what can u do for me",
+      "how u can help me",
+      "why i should use you"
+   ],
+   "responses": [
+      "I can answer to low-intermediate questions regarding college",
+      "You can ask me questions regarding college, and i will try to answer them"
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "ragging",
+   "patterns": [
+      "ragging",
+      "is ragging practice active in college",
+      "does college have any antiragging facility",
+      "is there any ragging cases",
+      "is ragging done here",
+      "ragging against",
+      "antiragging facility",
+      "ragging juniors",
+      "ragging history",
+      "ragging incidents"
+   ],
+   "responses": [
+      "We are Proud to tell you that our college provides ragging free environment, and we have strict rules against ragging"
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "hod",
+   "patterns": [
+      "hod",
+      "hod name",
+      "who is the hod"
+   ],
+   "responses": [
+      "HODs differ for each branch, please be more specific like: (HOD it)"
+   ],
+   "context_set": ""
+},
+
+   {
+     "tag": "order_status",
+     "patterns": [
+       "What is the status of my order?",
+       "Order status update",
+       "Check my order status",
+       "Where is my order?",
+       "Can you tell me when my order will arrive?",
+       "I need an update on my order status.",
+       "Is my order ready for shipping?",
+       "Has my order been dispatched yet?",
+       "When can I expect my package?",
+       "What's the current status of my order?",
+       "Tracking my order status",
+       "Order tracking information",
+       "Checking order shipment status",
+       "Any updates on my recent order?"
+     ],
+     "responses": [
+       "Your order is currently being processed. It will be dispatched soon."
+     ],
+     "context_set": ""
+   },
+   {
+     "tag": "payment_issue",
+     "patterns": [
+       "Payment problem",
+       "Issue with payment",
+       "Payment error",
+       "Payment not going through",
+       "Why is my payment not going through?",
+       "I'm experiencing issues with my payment method.",
+       "There seems to be an error with my payment transaction.",
+       "Payment failure",
+       "Trouble with online payment",
+       "Payment declined",
+       "Error processing payment",
+       "Payment authorization problem",
+       "Unable to complete payment",
+       "Card payment issue"
+     ],
+     "responses": [
+       "Please check your payment details and try again. If the issue persists, contact our support team."
+     ],
+     "context_set": ""
+   },
+   {
+     "tag": "delivery_time",
+     "patterns": [
+       "When will my order be delivered?",
+       "Delivery time",
+       "Estimated delivery date",
+       "Delivery schedule",
+       "Can you provide an estimated delivery date?",
+       "Delivery time estimation",
+       "Expected delivery window",
+       "When will my order arrive?",
+       "Delivery date confirmation",
+       "Estimated shipping time",
+       "Approximate delivery duration",
+       "Delivery ETA",
+       "Order arrival schedule",
+       "Delivery timeframe"
+     ],
+     "responses": [
+       "Your order will be delivered within 3-5 business days."
+     ],
+     "context_set": ""
+   },
+   {
+     "tag": "product_availability",
+     "patterns": [
+       "Is the product in stock?",
+       "Availability of product",
+       "Product stock status",
+       "Stock availability",
+       "Is this product currently in stock?",
+       "Availability status of the item",
+       "Product availability update",
+       "In-stock product inquiry",
+       "Can I buy this item now?",
+       "Availability check for product",
+       "Stock availability confirmation",
+       "Product inventory status",
+       "Item availability update",
+       "Availability of selected product"
+     ],
+     "responses": [
+       "Yes, the product is currently in stock and available for purchase."
+     ],
+     "context_set": ""
+   },
+   {
+     "tag": "return_policy",
+     "patterns": [
+       "What is your return policy?",
+       "Return process",
+       "Return authorization",
+       "Return instructions",
+       "How can I initiate a return?",
+       "Understanding your return policy",
+       "Return procedure query",
+       "Policy for returning items",
+       "Terms for product returns",
+       "Guidelines for returns",
+       "Return authorization process",
+       "Return eligibility criteria",
+       "Returning purchased items",
+       "Product return terms and conditions"
+     ],
+     "responses": [
+       "Our return policy allows returns within 30 days of purchase. Please check our website for more details."
+     ],
+     "context_set": ""
+   },
+   {
+     "tag": "discount_offer",
+     "patterns": [
+       "Do you have any discounts or offers?",
+       "Discounts available",
+       "Special offers",
+       "Promotional discounts",
+       "Do you offer any discounts on bulk orders?",
+       "Discount eligibility criteria",
+       "Special offers inquiry",
+       "Discounts for loyal customers",
+       "Promotional discounts query",
+       "Discount availability check",
+       "Discount code redemption",
+       "Discount validity period",
+       "Discounts on selected products",
+       "Discount policy clarification"
+     ],
+     "responses": [
+       "Yes, we have ongoing discounts on selected products. Visit our website to view the latest offers."
+     ],
+     "context_set": ""
+   },
+   {
+     "tag": "product_comparison",
+     "patterns": [
+       "Can you compare Product A and Product B?",
+       "Product comparison",
+       "Comparison between products",
+       "Product feature comparison",
+       "Can you provide a detailed comparison between Product A and Product B?",
+       "Comparing product specifications",
+       "Feature comparison of two products",
+       "Help me decide between two products",
+       "Product review and comparison",
+       "Detailed product analysis",
+       "Comparing product performance",
+       "Product pros and cons comparison",
+       "In-depth product comparison",
+       "Choosing between similar products"
+     ],
+     "responses": [
+       "Product A is known for its durability, while Product B offers more features. It depends on your preferences."
+     ],
+     "context_set": ""
+   },
+   {
+     "tag": "refund_process",
+     "patterns": [
+       "How long does the refund process take?",
+       "Refund timeline",
+       "Refund duration",
+       "Refund procedure",
+       "Can you explain the steps for getting a refund?",
+       "Understanding refund procedures",
+       "Refund request process",
+       "Refund initiation steps",
+       "Refund processing time",
+       "Refund status update",
+       "Refund eligibility criteria",
+       "Refund confirmation query",
+       "Refund policy clarification",
+       "Refund timeline inquiry"
+     ],
+     "responses": [
+       "Refunds are processed within 5-7 business days after we receive the returned item."
+     ],
+     "context_set": ""
+   },
+   {
+     "tag": "subscription_cancelation",
+     "patterns": [
+       "How can I cancel my subscription?",
+       "Cancel subscription",
+       "Subscription termination",
+       "Unsubscribe process",
+       "How do I cancel my subscription?",
+       "Subscription cancellation process",
+       "Terminating my subscription",
+       "Unsubscribing from services",
+       "Ending subscription",
+       "Subscription deactivation steps",
+       "Canceling recurring subscription",
+       "Subscription renewal cancellation",
+       "Subscription termination request",
+       "Stopping subscription services"
+     ],
+     "responses": [
+       "You can cancel your subscription through your account settings or contact our support team for assistance."
+     ],
+     "context_set": ""
+   },
+   {
+     "tag": "shipping_cost",
+     "patterns": [
+       "What are the shipping costs?",
+       "Shipping charges",
+       "Delivery fees",
+       "Cost of shipping",
+       "Can you provide details on shipping charges?",
+       "Shipping fee information",
+       "Delivery cost query",
+       "Estimate shipping charges",
+       "Shipping price clarification",
+       "Shipping cost calculation",
+       "Shipping fee breakdown",
+       "Understanding delivery charges",
+       "Shipping cost inquiry",
+       "Cost for shipping orders"
+     ],
+     "responses": [
+       "Shipping costs vary based on the delivery location and the weight of the package. You can view the shipping costs during checkout."
+     ],
+     "context_set": ""
+   },
+   
+      {
+        "tag": "technical_support",
+        "patterns": [
+          "How can I get technical support?",
+          "Technical assistance required",
+          "Help with technical issues",
+          "Troubleshooting help",
+          "Assistance for technical problems",
+          "Technical support contact",
+          "Need help with software problems",
+          "Technical troubleshooting guide",
+          "How to reach technical support?",
+          "Support for software bugs",
+          "Technical problem resolution",
+          "Software glitch assistance",
+          "Guide for fixing technical errors",
+          "Software troubleshooting steps",
+          "Resolving technical issues",
+          "Technical assistance request",
+          "Guidance for software issues",
+          "Technical problem-solving help",
+          "Software troubleshooting assistance",
+          "Help needed with technical problems",
+          "Support for software glitches",
+          "Fixing technical errors",
+          "Troubleshooting software issues",
+          "Software problem resolution",
+          "Technical issue resolution steps"
+        ],
+        "responses": [
+          "Our technical support team is available 24/7 to assist you with any technical issues. Please contact us for immediate help."
+        ],
+        "context_set": ""
+      },
+      {
+        "tag": "account_management",
+        "patterns": [
+          "How do I manage my account?",
+          "Account settings modification",
+          "Update account information",
+          "Managing user profile",
+          "Account security settings",
+          "Password reset process",
+          "Account privacy settings",
+          "Profile customization options",
+          "Changing account details",
+          "Account activation process",
+          "Account deactivation steps",
+          "Account recovery procedure",
+          "Managing subscription settings",
+          "Personal information update",
+          "Account login issues",
+          "Account management assistance",
+          "Profile settings modification",
+          "Help with updating account details",
+          "Security settings guidance",
+          "Password recovery process",
+          "Account privacy settings help",
+          "Profile customization support",
+          "Account deactivation assistance",
+          "Subscription management guidance",
+          "Account login troubleshooting"
+        ],
+        "responses": [
+          "You can manage your account settings through your profile dashboard. Follow the steps provided to update your information."
+        ],
+        "context_set": ""
+      },
+      {
+        "tag": "product_recommendations",
+        "patterns": [
+          "Can you suggest products for me?",
+          "Product recommendation request",
+          "Seeking product suggestions",
+          "Best product choices",
+          "Recommended items for me",
+          "Product selection advice",
+          "Top-rated product recommendations",
+          "Customized product suggestions",
+          "Personalized product picks",
+          "Product comparison assistance",
+          "Finding suitable products",
+          "Product recommendation algorithm",
+          "Smart product recommendations",
+          "Product discovery guide",
+          "Tailored product suggestions",
+          "Recommendations for product selection",
+          "Product suggestions needed",
+          "Choosing the best products",
+          "Personalized product recommendations",
+          "Product comparison advice",
+          "Finding suitable products assistance",
+          "Smart product suggestions",
+          "Product discovery assistance",
+          "Tailored product picks needed",
+          "Product feature comparison guidance"
+        ],
+        "responses": [
+          "Based on your preferences and browsing history, here are some product recommendations for you."
+        ],
+        "context_set": ""
+      },
+      {
+        "tag": "order_modification",
+        "patterns": [
+          "How can I modify my order?",
+          "Order customization options",
+          "Changing order details",
+          "Edit order information",
+          "Modifying shipping address",
+          "Adding items to an existing order",
+          "Order cancellation process",
+          "Amending order quantity",
+          "Updating delivery preferences",
+          "Changing payment method for an order",
+          "Customizing product options",
+          "Order revision procedure",
+          "Editing order specifications",
+          "Order status alteration",
+          "Modifying order delivery date",
+          "Order customization assistance",
+          "Modifying order details help",
+          "Change order information guidance",
+          "Amending shipping address support",
+          "Order cancellation steps",
+          "Editing order specifications assistance",
+          "Order status alteration guidance",
+          "Modifying delivery date support",
+          "Order revision assistance",
+          "Changing payment method guidance"
+        ],
+        "responses": [
+          "You can modify your order details through your account dashboard or contact us for assistance with order changes."
+        ],
+        "context_set": ""
+      },
+      {
+        "tag": "product_returns",
+        "patterns": [
+          "How do I return a product?",
+          "Return authorization process",
+          "Requesting a product return",
+          "Return policy details",
+          "Return merchandise instructions",
+          "Product exchange process",
+          "Return shipping guidelines",
+          "Return label issuance",
+          "Return item eligibility",
+          "Refund process for returns",
+          "Return window duration",
+          "Return packaging requirements",
+          "Initiating a product return",
+          "Return shipping cost coverage",
+          "Return authorization timeframe",
+          "Product return process assistance",
+          "Returning a purchased item help",
+          "Initiating a product return guidance",
+          "Return policy clarification",
+          "Refund process for returns assistance",
+          "Return packaging requirements guidance",
+          "Return shipping cost coverage details",
+          "Return authorization timeframe clarification",
+          "Requesting return label assistance",
+          "Return item eligibility check"
+        ],
+        "responses": [
+          "To return a product, please follow our return authorization process and ensure your item meets our return policy criteria."
+        ],
+        "context_set": ""
+      },
+      {
+        "tag": "product_information",
+        "patterns": [
+          "Can I get more details about this product?",
+          "Product specifications inquiry",
+          "Product features overview",
+          "Detailed product description",
+          "Product benefits explanation",
+          "Technical specifications query",
+          "Product usage instructions",
+          "Product dimensions information",
+          "Material composition details",
+          "Warranty information request",
+          "Product availability status",
+          "Compatibility with other devices",
+          "Product reviews and ratings",
+          "Product pricing details",
+          "Product variants comparison",
+          "Detailed product information needed",
+          "Technical specifications inquiry help",
+          "Product benefits explanation required",
+          "Understanding product features",
+          "Product usage instructions needed",
+          "Product dimensions information assistance",
+          "Material composition details clarification",
+          "Warranty information request guidance",
+          "Product availability status check",
+          "Product variants comparison assistance"
+        ],
+        "responses": [
+          "Here is detailed information about the product you're interested in. If you need further details, feel free to ask."
+        ],
+        "context_set": ""
+      },
+      {
+        "tag": "billing_inquiries",
+        "patterns": [
+          "Questions about billing",
+          "Billing statement clarification",
+          "Payment history review",
+          "Billing cycle information",
+          "Billing address update",
+          "Invoice details request",
+          "Payment receipt retrieval",
+          "Billing errors resolution",
+          "Payment method update",
+          "Billing account management",
+          "Subscription billing queries",
+          "Invoice generation process",
+          "Payment confirmation status",
+          "Payment overdue assistance",
+          "Billing support contact",
+          "Clarification on billing statement",
+          "Reviewing payment history guidance",
+          "Billing cycle information needed",
+          "Updating billing address help",
+          "Invoice details request clarification",
+          "Payment receipt retrieval assistance",
+          "Billing errors resolution support",
+          "Billing account management guidance",
+          "Subscription billing queries assistance",
+          "Billing support contact information"
+        ],
+        "responses": [
+          "For any billing inquiries or issues, please contact our billing support team. We are here to assist you."
+        ],
+        "context_set": ""
+      },
+      {
+        "tag": "customer_feedback",
+        "patterns": [
+          "How can I provide feedback?",
+          "Feedback submission process",
+          "Sharing customer experience",
+          "Feedback form access",
+          "Suggestions and feedback submission",
+          "Customer satisfaction survey",
+          "Feedback on product/service",
+          "Improving customer experience",
+          "Feedback collection mechanism",
+          "Feedback review and analysis",
+          "Feedback response time",
+          "Customer feedback importance",
+          "Feedback acknowledgment",
+          "Feedback implementation process",
+          "Feedback impact assessment",
+          "Providing feedback assistance",
+          "Feedback submission process clarification",
+          "Sharing customer experience guidance",
+          "Feedback form access help",
+          "Customer satisfaction survey support",
+          "Improving customer experience advice",
+          "Feedback collection mechanism assistance",
+          "Feedback implementation process guidance",
+          "Feedback impact assessment support",
+          "Feedback acknowledgment clarification"
+        ],
+        "responses": [
+          "We appreciate your feedback! Please use our feedback submission process to share your thoughts and suggestions."
+        ],
+        "context_set": ""
+      },
+      {
+        "tag": "technical_specifications",
+        "patterns": [
+          "What are the technical specs?",
+          "Technical details inquiry",
+          "Product performance specs",
+          "Device compatibility specs",
+          "System requirements check",
+          "Hardware specifications overview",
+          "Software version compatibility",
+          "Technical documentation access",
+          "Detailed technical features",
+          "Understanding product capabilities",
+          "Product testing standards",
+          "Performance benchmarking data",
+          "Technical specifications accuracy",
+          "Product certification details",
+          "Compliance with industry standards",
+          "Technical specifications inquiry assistance",
+          "Understanding product capabilities help",
+          "Product testing standards clarification",
+          "Performance benchmarking data needed",
+          "Technical specifications accuracy guidance",
+          "Product certification details clarification",
+          "Compliance with industry standards support",
+          "Detailed technical features explanation",
+          "Device compatibility specs assistance",
+          "System requirements check clarification"
+        ],
+        "responses": [
+          "Here are the technical specifications for the product you're interested in. If you need more details, let us know."
+        ],
+        "context_set": ""
+      },
+      {
+        "tag": "order_tracking",
+        "patterns": [
+          "How do I track my order?",
+          "Order tracking status check",
+          "Tracking order shipment",
+          "Track my delivery status",
+          "Order tracking number retrieval",
+          "Real-time order tracking",
+          "Tracking package location",
+          "Order delivery confirmation",
+          "Shipment tracking details",
+          "Tracking order progress",
+          "Estimated delivery time tracking",
+          "Track my parcel online",
+          "Order shipment updates",
+          "Delivery status notification",
+          "Track my order delivery route",
+          "Order tracking assistance needed",
+          "Tracking order shipment help",
+          "Track my delivery status guidance",
+          "Order tracking number retrieval support",
+          "Real-time order tracking assistance",
+          "Tracking package location clarification",
+          "Order delivery confirmation guidance",
+          "Shipment tracking details clarification",
+          "Tracking order progress assistance",
+          "Estimated delivery time tracking support"
+        ],
+        "responses": [
+          "You can easily track your order using our order tracking system. Enter your tracking number to get real-time updates."
+        ],
+        "context_set": ""
+      }
+    
+    
+    ]
+    
+ 
+ 
+ 
+
+}

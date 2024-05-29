@@ -1,14 +1,14 @@
 # Chatbot Project
 
-[![-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/aqua.png)](https://github.com/BaseMax?tab=repositories)
-
 <img src="https://github.com/Chamindu77/Task-ChatBot/assets/117502200/09a876ef-1bc6-4071-9a14-437ee37c5c36" width="550" height="350"/>
-
-[![-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/aqua.png)](https://github.com/BaseMax?tab=repositories)
 
 ## Overview
 
+[![-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/aqua.png)](https://github.com/BaseMax?tab=repositories)
+
 This project is a chatbot created using a pre-trained model and fine-tuned with a dataset containing over 1,000 records. The chatbot is designed to respond to user queries and engage in natural language conversations on various topics.
+
+[![-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/aqua.png)](https://github.com/BaseMax?tab=repositories)
 
 ## Table of Contents
 

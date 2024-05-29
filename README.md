@@ -2,7 +2,9 @@
 
 [![-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/aqua.png)](https://github.com/BaseMax?tab=repositories)
 
-<img src="https://github.com/Chamindu77/Task-ChatBot/assets/117502200/f3643379-29c6-4894-8b78-3bbb011b4bd7" width="750" height="550"/>
+<p align="center">
+  <img src="https://github.com/Chamindu77/Task-ChatBot/assets/117502200/f3643379-29c6-4894-8b78-3bbb011b4bd7" width="550" height="350"/>
+</p>
 
 [![-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/aqua.png)](https://github.com/BaseMax?tab=repositories)
 

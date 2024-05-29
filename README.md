@@ -6,7 +6,7 @@
 
 [![-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/aqua.png)](https://github.com/BaseMax?tab=repositories)
 
-This project is a chatbot created using a pre-trained model and fine-tuned with a dataset containing over 1,000 records. The chatbot is designed to respond to user queries and engage in natural language conversations on various topics.
+In this project, I develop an AI-powered chatbot using BERT, a leading model for natural language understanding. I start by loading and analyzing conversational data, then split it into training, validation, and test sets. I use a pretrained BERT model and tokenizer to convert text data into numerical format and fine-tune the model on my dataset. Finally, I evaluate the chatbot's performance and save the trained model for future use.
 
 [![-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/aqua.png)](https://github.com/BaseMax?tab=repositories)
 

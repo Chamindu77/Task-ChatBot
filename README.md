@@ -1,5 +1,11 @@
 # Chatbot Project
 
+[![-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/aqua.png)](https://github.com/BaseMax?tab=repositories)
+
+<img src="https://github.com/Chamindu77/Task-ChatBot/assets/117502200/f3643379-29c6-4894-8b78-3bbb011b4bd7" width="550" height="350"/>
+
+[![-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/aqua.png)](https://github.com/BaseMax?tab=repositories)
+
 ## Overview
 
 This project is a chatbot created using a pre-trained model and fine-tuned with a dataset containing over 1,000 records. The chatbot is designed to respond to user queries and engage in natural language conversations on various topics.
@@ -9,8 +15,6 @@ This project is a chatbot created using a pre-trained model and fine-tuned with 
 - [Data Preprocessing](#data-preprocessing)
 - [Model Implementation](#model-implementation)
 - [Model Evaluation](#model-evaluation)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Installation
 

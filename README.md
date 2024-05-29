@@ -20,7 +20,7 @@ In this project, I develop an AI-powered chatbot using BERT, a leading model for
 
 To run the chatbot locally, follow these steps:
 
-1. Colab Link to notebook: https://github.com/Chamindu77/Task-ChatBot.git](https://colab.research.google.com/drive/1tPsMeyjbA8yc0ZCXhH3hQwDB5VFi7b66#scrollTo=17a01fHxIFYD
+1. Colab Link to notebook: https://colab.research.google.com/drive/1tPsMeyjbA8yc0ZCXhH3hQwDB5VFi7b66#scrollTo=17a01fHxIFYD
 2. Interact with the chatbot by typing your queries and receiving responses.
 
 ## Data Preprocessing

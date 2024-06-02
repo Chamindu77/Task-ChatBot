@@ -12,6 +12,7 @@ In this project, I develop an AI-powered chatbot using BERT, a leading model for
 
 ## Table of Contents
 
+- [Data Analysis](#data-analysis)
 - [Data Preprocessing](#data-preprocessing)
 - [Model Implementation](#model-implementation)
 - [Model Evaluation](#model-evaluation)
@@ -20,8 +21,18 @@ In this project, I develop an AI-powered chatbot using BERT, a leading model for
 
 To run the chatbot locally, follow these steps:
 
-1. Colab Link to notebook: https://colab.research.google.com/drive/1tPsMeyjbA8yc0ZCXhH3hQwDB5VFi7b66#scrollTo=17a01fHxIFYD
+1. Colab Link to notebook: [Open in Colab](https://colab.research.google.com/drive/1tPsMeyjbA8yc0ZCXhH3hQwDB5VFi7b66#scrollTo=17a01fHxIFYD)
 2. Interact with the chatbot by typing your queries and receiving responses.
+
+## Data Analysis
+
+Before diving into data preprocessing, an essential step is to analyze the dataset to gain insights and understand the distribution of the data. This involves:
+
+- **Exploratory Data Analysis (EDA)**: Conducting a thorough EDA to understand the data's structure, common patterns, and potential outliers.
+- **Visualization**: Using visual tools like histograms, bar charts, and word clouds to represent the distribution of different classes, most frequent words, and conversation lengths.
+- **Statistical Summary**: Generating summary statistics to evaluate the mean, median, mode, and standard deviation of various features in the dataset.
+
+By performing these analyses, we can identify key characteristics of the conversational data, which will inform the subsequent steps in data preprocessing and model training.
 
 ## Data Preprocessing
 
@@ -52,4 +63,3 @@ The chatbot's performance was evaluated using various metrics, including:
 - Confusion Matrix
 
 The evaluation process helps assess the chatbot's effectiveness in handling user queries and providing accurate responses.
-
